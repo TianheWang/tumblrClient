@@ -14,6 +14,7 @@
 		220DE96C1D5287A200DE01DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220DE96A1D5287A200DE01DA /* LaunchScreen.storyboard */; };
 		22A6A27C1D52918C00DAA00D /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6A27B1D52918C00DAA00D /* PostTableViewCell.swift */; };
 		9E61036571B32CB9B0D1CB7B /* Pods_tumblrClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061C0295B5E43502EAD10455 /* Pods_tumblrClient.framework */; };
+		C57BE3041D5298B800086A1C /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57BE3031D5298B800086A1C /* PhotoDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		22A6A27B1D52918C00DAA00D /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		49615E7E46B0E5F41C73A932 /* Pods-tumblrClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumblrClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-tumblrClient/Pods-tumblrClient.release.xcconfig"; sourceTree = "<group>"; };
 		8E7DCCAAE3DAF7A18C8F9615 /* Pods-tumblrClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumblrClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tumblrClient/Pods-tumblrClient.debug.xcconfig"; sourceTree = "<group>"; };
+		C57BE3031D5298B800086A1C /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				220DE96A1D5287A200DE01DA /* LaunchScreen.storyboard */,
 				220DE96D1D5287A200DE01DA /* Info.plist */,
 				22A6A27B1D52918C00DAA00D /* PostTableViewCell.swift */,
+				C57BE3031D5298B800086A1C /* PhotoDetailsViewController.swift */,
 			);
 			path = tumblrClient;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57BE3041D5298B800086A1C /* PhotoDetailsViewController.swift in Sources */,
 				220DE9641D5287A200DE01DA /* PhotosViewController.swift in Sources */,
 				220DE9621D5287A200DE01DA /* AppDelegate.swift in Sources */,
 				22A6A27C1D52918C00DAA00D /* PostTableViewCell.swift in Sources */,
